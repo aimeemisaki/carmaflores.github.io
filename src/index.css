@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Prompt:wght@100;400&family=Rubik+Mono+One&family=Staatliches&display=swap');
+
+:root {
+  --main:black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+	/* Layouts */
+	
+	.grid-centered {
+		@apply 
+			grid 
+			place-items-center
+			row-span-5 
+		;
+	}
+
+	.flex-centered {
+		@apply
+			flex
+			justify-center
+			items-center
+		;
+	}
+
+	.horizontal {
+		@apply
+			flex
+			flex-row;
+	}
+
+	.vertical {
+		@apply
+			flex
+			flex-col;
+	}
+
+  
+	/* NavBar */
+  
+  .navbar {
+    background-color:white;
+    color: var(--main);
+    font-family: 'Poiret One', cursive;
+    @apply
+      text-xl
+      font-semibold;
+  }
+  
+  .nav-link:hover {
+    color: var(--forest-gr);
+  }
+  
+  .menu {
+    background-color: black;
+    @apply
+      h-screen
+      w-screen
+      z-10
+      fixed
+      top-0
+      left-0
+      vertical
+      justify-evenly
+      text-center
+    ;
+  }
+  
+  .hover-nav-small {
+    @apply 
+      hover:text-slate-800 
+      hover:font-normal 
+      hover:bg-white/40 
+      rounded-2xl p-3;
+  }
