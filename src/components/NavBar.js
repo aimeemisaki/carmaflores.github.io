@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavDropdown } from 'react-bootstrap'
 import { NavLink, useNavigate } from 'react-router-dom'
-import logo from '../assets/carma.ai'
+import carmaNavLogo from '../assets/carmaNavLogo.png'
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 // import {
 // 	faX,
@@ -13,64 +13,65 @@ function NavBar () {
         setToggle(prevState => !prevState)
     }
     return (
-        <>
-        <div className='navbar horizontal justify-between items-center p-3'>
-            <div>
-                <NavLink to='/'>
-                    <img src={logo} alt='nav-logo' className='nav-logo'/>
+        <div className='navbar sm:grid grid-rows-2'>
+        <div className='nav-bar-container'>
+            <NavLink to='/'>
+                 <img src={carmaNavLogo}  alt='nav-logo' className='nav-logo'/>
+            </NavLink>
+        </div>
+        <div className='nav-links hidden space-x-4'>
+            <li className='nav-link' to='/fashion-styling'>
+                <NavLink  to='/fashion-styling'>
+                    <p>fashion / styling</p>
                 </NavLink>
-            </div>
-            <div className='hidden space-x-4 sm:flex'>
-                <NavLink className='nav-link' to ='/directory'>
-                    <p>DIRECTORY</p>
+            </li>
+            <li className='nav-link' to='/creative'>
+                <NavLink  to='/creative'>
+                    <p>creative</p>
                 </NavLink>
-                <NavDropdown title='WORK'>
-                    <div>
-                        <NavLink className='nav-link' to='/fashion'>
-                            FASHION
+            </li>
+            <li className='nav-link' to='/about-contact'>
+                <NavLink  to='/about-contact'>
+                    <p>about / contact</p>
+                </NavLink>
+            </li>
+        </div>
+        <div className='space-x-4 sm:hidden' onClick={toggleNav}>
+            <p>menu</p>
+            {/* <FontAwesomeIcon className='text-white text-3xl' icon={faBars} /> */}
+        </div>
+        {toggle && (
+            <div className='menu text-white sm:hidden'>
+                {/* <FontAwesomeIcon
+                    icon={faX}
+                    className='absolute top-4 right-4'
+                    onClick={toggleNav}
+                /> */}
+                <ul className='text-2xl space-y-4'>
+                            <li onClick={toggleNav}>
+                                <NavLink to='/projects' className='hover-nav-small'>
+                                    PROJECTS
+                                </NavLink>
+                            </li>
+                            <li onClick={toggleNav}>
+                                <NavLink to='/experiences' className='hover-nav-small'>
+                                    WORK EXPERIENCES
+                                </NavLink>
+                            </li>
+                            <li onClick={toggleNav}>
+                                <NavLink to='/contact' className='hover-nav-small'>
+                                    CONTACT
+                                </NavLink>
+                            </li>
+                    <li onCllick={toggleNav}>
+                        <NavLink to='/about' className='hover-nav-small'>
+                            ABOUT
                         </NavLink>
-                        <NavLink className='nav-link' to='/creative'>
-                            CREATIVE
-                        </NavLink>
-                        </div>
-                </NavDropdown>
-                <NavLink className='nav-link' to='/about-contact'>
-                    <p>ABOUT/CONTACT</p>
-                </NavLink>
+                    </li>
+                </ul>
             </div>
-            {toggle && (
-				<div className='menu text-white sm:hidden'>
-					{/* <FontAwesomeIcon
-						icon={faX}
-						className='absolute top-4 right-4'
-						onClick={toggleNav}
-					/> */}
-					<ul className='text-2xl space-y-4'>
-                        <li onClick={toggleNav}>
-                            <NavLink to='/directory' className='hover-nav-small'>
-                                DIRECTORY
-                            </NavLink>
-                        </li>
-                        <li onClick={toggleNav}>
-                            <NavLink to='/fashion' className='hover-nav-small'>
-                                FASHION
-                            </NavLink>
-                        </li>
-                        <li onClick={toggleNav}>
-                            <NavLink to='/creative' className='hover-nav-small'>
-                                CREATIVE
-                            </NavLink>
-                        </li>
-                        <li onClick={toggleNav}>
-                            <NavLink to='/about-contact' className='hover-nav-small'>
-                                ABOUT/CONTACT
-                            </NavLink>
-                        </li>
-					</ul>
-				</div>
-			)}
-		</div>
-        </>
+        )}
+    </div>
     )
 }
 

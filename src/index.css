@@ -42,16 +42,37 @@
 
   
 	/* NavBar */
-  
+  .nav-bar-container {
+    @apply
+      vertical
+      justify-evenly
+      w-2/5;
+  }
+
+  .nav-logo {
+    @apply
+      w-2/5
+  }
   .navbar {
     background-color:white;
     color: var(--main);
     font-family: 'Poiret One', cursive;
     @apply
       text-xl
-      font-semibold;
+      font-semibold
   }
   
+  .nav-links {
+    @apply
+      sm:grid;
+      
+  }
+
+  .nav-link {
+    @apply
+      sm:row-span-1;
+  }
+
   .nav-link:hover {
     color: var(--forest-gr);
   }
