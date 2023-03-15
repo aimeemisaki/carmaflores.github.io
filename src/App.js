@@ -4,10 +4,14 @@ import LaunchPage from './components/LaunchPage';
 import NavBar from './components/NavBar'
 
 function App() {
+  function videoStart () {
+    document.querySelector('video').play()
+}
   return (
     <>
       <NavBar/>
-      <main>
+      <main 
+      onMouseOver={videoStart}>
         <Routes>
             <Route path ='/' element={<LaunchPage />}/>
         </Routes>
