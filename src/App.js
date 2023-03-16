@@ -14,6 +14,7 @@ function App() {
       onMouseOver={videoStart}>
         <Routes>
             <Route path ='/' element={<LaunchPage />}/>
+            <Route path ='/fashion-styling' element={<fFshionStyling />} /> 
         </Routes>
       </main>
     </>

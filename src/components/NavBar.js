@@ -13,13 +13,13 @@ function NavBar () {
         setToggle(prevState => !prevState)
     }
     return (
-        <div className='navbar sm:grid grid-rows-2'>
+        <div className='navbar sm:grid grid-rows-2 pl-4'>
         <div className='nav-bar-container'>
             <NavLink to='/'>
                  <img src={carmaNavLogo}  alt='nav-logo' className='nav-logo'/>
             </NavLink>
         </div>
-        <div className='nav-links hidden space-x-4'>
+        <div className='nav-links hidden'>
             <li className='nav-link' to='/fashion-styling'>
                 <NavLink  to='/fashion-styling'>
                     <p>fashion / styling</p>

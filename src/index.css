@@ -4,10 +4,21 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Prompt:wght@100;400&family=Rubik+Mono+One&family=Staatliches&display=swap');
+/* @font-face {
+  font-family: "Monoist-Regular";
+  src: local(Monoist-Regular) format("ttf");
+
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
   --main:black;
+  --light:lightgrey;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
 }
 
 	/* Layouts */
@@ -16,9 +27,16 @@
 		@apply 
 			grid 
 			place-items-center
-			row-span-5 
+			row-span-5
 		;
 	}
+
+  .centered {
+    @apply
+    grid 
+    place-items-center 
+    h-screen;
+  }
 
 	.flex-centered {
 		@apply
@@ -56,7 +74,6 @@
   .navbar {
     background-color:white;
     color: var(--main);
-    font-family: 'Poiret One', cursive;
     @apply
       text-xl
       font-semibold
