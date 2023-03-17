@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import './index.css';
 import LaunchPage from './components/LaunchPage';
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar';
+import FashionStyling from './components/FashionStyling';
 
 function App() {
   function videoStart () {
@@ -14,7 +15,7 @@ function App() {
       onMouseOver={videoStart}>
         <Routes>
             <Route path ='/' element={<LaunchPage />}/>
-            <Route path ='/fashion-styling' element={<fFshionStyling />} /> 
+            <Route path ='/fashion-styling' element={<FashionStyling />} /> 
         </Routes>
       </main>
     </>

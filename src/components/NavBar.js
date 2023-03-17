@@ -22,17 +22,17 @@ function NavBar () {
         <div className='nav-links hidden'>
             <li className='nav-link' to='/fashion-styling'>
                 <NavLink  to='/fashion-styling'>
-                    <p>fashion / styling</p>
+                    <p className='nav-name'>fashion / styling</p>
                 </NavLink>
             </li>
             <li className='nav-link' to='/creative'>
                 <NavLink  to='/creative'>
-                    <p>creative</p>
+                    <p className='nav-name'>creative</p>
                 </NavLink>
             </li>
             <li className='nav-link' to='/about-contact'>
                 <NavLink  to='/about-contact'>
-                    <p>about / contact</p>
+                    <p className='nav-name'>about / contact</p>
                 </NavLink>
             </li>
         </div>
