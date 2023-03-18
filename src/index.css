@@ -115,3 +115,126 @@ body {
       hover:bg-white/40 
       rounded-2xl p-3;
   }
+
+  	/* FashionStyling */
+
+.alt-images {
+  align-items: center;
+  justify-content: center;
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  pl-6
+  ;
+}
+
+.overflow-images {
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  pl-8
+  pr-8
+  ;
+}
+
+.alt-image {
+  @apply
+  w-1/5
+  ;
+}
+
+.single-img {
+  @apply
+  py-8
+;
+}
+
+.main-bol-img {
+  border-width: 1px;
+  border-color: #0039BB;
+}
+
+.bol-img-2 {
+  border-width: 1px;
+  border-color: red;
+
+}
+
+.bol-img-3 {
+  border-width: 2px;
+  border-color: yellow;
+}
+
+.eartheater-img {
+  border-width: 1px;
+  border-color: green;
+}
+
+.puffer-img {
+  border-width: 1px;
+  border-color: #FF7EFB;
+}
+
+.popeye-main-img {
+  border-width: 1px;
+  border-color: green;
+}
+
+.popeye-img-1 {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.popeye-img-2 {
+  border-width: 1px;
+  border-color: #025107;
+}
+
+.popeye-img-3 {
+  border-width: 1px;
+  border-color: #FF7712;
+}
+
+.popeye-img-4 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.popeye-img-5 {
+  border-width: 1px;
+  border-color: lightgreen;
+}
+
+.popeye-img-6 {
+  border-width: 1px;
+  border-color: darkred;
+}
+
+.main-caleb-img {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.caleb-img-1 {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.caleb-img-2 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.caleb-img-3 {
+  border-width: 1px;
+  border-color: cyan;
+}
+
+.caleb-img-4 {
+  border-width: 1px;
+  border-color: green;
+}
