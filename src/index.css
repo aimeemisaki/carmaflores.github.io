@@ -4,12 +4,6 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-/* @font-face {
-  font-family: "Monoist-Regular";
-  src: local(Monoist-Regular) format("ttf");
-
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
@@ -116,7 +110,7 @@ body {
       rounded-2xl p-3;
   }
 
-  	/* FashionStyling */
+  /* FashionStyling */
 
 .alt-images {
   align-items: center;
@@ -127,6 +121,7 @@ body {
   w-[100vw]
   space-x-2
   pl-6
+  overflow-x-auto
   ;
 }
 
@@ -238,3 +233,38 @@ body {
   border-width: 1px;
   border-color: green;
 }
+
+/* Creative
+
+#43FF02*/
+
+.blonded-main-img {
+  border-width: 1px;
+  border-color:#FF2EB6;
+}
+
+.blonded-img-1 {
+  border-width: 1px;
+  border-color: #FFF002;
+}
+
+.blonded-img-2 {
+  border-width: 1px;
+  border-color: red;
+}
+
+.blonded-img-3 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.blonded-img-4 {
+  border-width: 1px;
+  border-color: green;
+}
+
+.blotter-main-img {
+  border-width:1px;
+  border-color: green;
+}
+

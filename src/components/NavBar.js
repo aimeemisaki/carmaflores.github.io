@@ -42,25 +42,25 @@ function NavBar () {
         </div>
         {toggle && (
             <div className='menu text-white sm:hidden'>
-                {/* <FontAwesomeIcon
-                    icon={faX}
+                <p
                     className='absolute top-4 right-4'
-                    onClick={toggleNav}
-                /> */}
+                    onClick={toggleNav}>
+                    x
+                </p>
                 <ul className='text-2xl space-y-4'>
                             <li onClick={toggleNav}>
-                                <NavLink to='/projects' className='hover-nav-small'>
-                                    PROJECTS
+                                <NavLink to='/fashion-styling' className='hover-nav-small'>
+                                    fashion / styling
                                 </NavLink>
                             </li>
                             <li onClick={toggleNav}>
-                                <NavLink to='/experiences' className='hover-nav-small'>
-                                    WORK EXPERIENCES
+                                <NavLink to='/creative' className='hover-nav-small'>
+                                    creative
                                 </NavLink>
                             </li>
                             <li onClick={toggleNav}>
-                                <NavLink to='/contact' className='hover-nav-small'>
-                                    CONTACT
+                                <NavLink to='/about-contact' className='hover-nav-small'>
+                                    about / contact
                                 </NavLink>
                             </li>
                     <li onCllick={toggleNav}>
