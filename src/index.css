@@ -112,6 +112,11 @@ body {
 
   /* FashionStyling */
 
+  .work-containers {
+    @apply
+    py-12;
+  }
+
   .work-container {
     @apply
     grid 
@@ -157,7 +162,7 @@ body {
   pb-12
   w-[100vw]
   space-x-2
-  pl-6
+  px-6
   overflow-x-auto
   ;
 }
@@ -168,8 +173,8 @@ body {
   pb-12
   w-[100vw]
   space-x-2
-  pl-8
-  pr-8
+  pl-4
+  pr-4
   ;
 }
 
@@ -198,6 +203,27 @@ body {
   py-8
 ;
 }
+
+.caleb-images {
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  pl-4
+  pr-4
+  overflow-x-auto
+  sm:pt-8
+  sm:pb-12
+  sm:w-[100vw]
+  sm:space-x-2
+  sm:pl-4
+  sm:pr-4
+  sm:flex
+  sm:justify-center;
+  ;
+}
+
 
 .main-bol-img {
   border-width: 1px;
