@@ -21,24 +21,24 @@ import pufferImg from '../assets/pufferImg.png';
 function FashionStyling () {
     return (
         <>
-        <div className='grid grid-cols-3 gap-20'>
-            <div className='flex flex-col'>
+        <div className='work-container'>
+            <div className='flex flex-col cols-span-1'>
                 <p className='text-right pl-8'>
                     I.
                 </p>
-                <p className='text-right'>
+                <p className='text-right text-title'>
                     Fashion Styling
                 </p>
                 </div>
-            <div className=''>
+            <div className='main-img-container'>
                 <img src={bolBasketballImg1} 
                 alt='Main Bol Basketball Styling'
-                className='main-bol-img'/>
+                className='main-bol-img main-img'/>
                 
             </div>
             
-            <div className='flex flex-col'>
-                <p className='text-lg' >Fashion Assistance</p>
+            <div className='text-section'>
+                <p className='text-title'>Fashion Assistance</p>
                 <p>
                 CREATIVE ART DIRECTION / DIRTY SON AGENCY
                 </p>
@@ -62,23 +62,23 @@ function FashionStyling () {
                     className='alt-image bol-img-3' />
                 </div>
         </div>
-        <div className='grid grid-cols-3 gap-20 single-img'>
-            <div className='flex flex-col'>
+        <div className='work-container'>
+            <div className='flex flex-col cols-span-1'>
                 <p className='text-right pl-8'>
                     II.
                 </p>
-                <p className='text-right'>
+                <p className='text-right text-title'>
                     Fashion Styling
                 </p>
             </div>
-            <div className=''>
+            <div className='col-span-2 sm:col-span-1'>
                 <img src={eartheaterImg} 
                 alt='Eartheater Styling'
-                className='eartheater-img'/>
+                className='eartheater-img main-img'/>
                 
             </div>
-            <div className='flex flex-col'>
-                <p className='text-lg' >Fashion Assistance</p>
+            <div className='text-section'>
+                <p className='text-sm sm:text-lg'>Fashion Assistance</p>
                 <p>
                 CREATIVE ART DIRECTION / DIRTY SON AGENCY
                 </p>
@@ -90,24 +90,24 @@ function FashionStyling () {
                 </p>
             </div>
         </div>
-        <div className='grid grid-cols-3 gap-20 single-img'>
-            <div className='flex flex-col'>
+        <div className='work-container'>
+            <div className='flex flex-col cols-span-1'>
                 <p className='text-right pl-8'>
                     III.
                 </p>
-                <p className='text-right'>
+                <p className='text-right text-title'>
                     Fashion Styling
                 </p>
             </div>
-            <div className=''>
+            <div className='main-img-container'>
                 <img 
                 src={pufferImg} 
                 alt='Puffer Styling'
-                className='puffer-img'/>
+                className='puffer-img main-img'/>
                 
             </div>
-            <div className='flex flex-col'>
-                <p className='text-lg' >Fashion Assistance</p>
+            <div className='text-section'>
+                <p className='text-title' >Fashion Assistance</p>
                 <p>
                 CREATIVE ART DIRECTION / DIRTY SON AGENCY
                 </p>
@@ -119,23 +119,23 @@ function FashionStyling () {
                 </p>
             </div>
         </div>
-        <div className='grid grid-cols-3 gap-20'>
-            <div className='flex flex-col'>
+        <div className='work-container'>
+            <div className='flex flex-col cols-span-1'>
                 <p className='text-right pl-8'>
                     IV.
                 </p>
-                <p className='text-right'>
+                <p className='text-right text-title'>
                     Fashion Styling
                 </p>
             </div>
-            <div className=''>
+            <div className='main-img-container'>
                 <img src={popeyeRichImg} 
                 alt='Main Popeye Rich Styling'
-                className='popeye-main-img'/>
+                className='popeye-main-img main-img'/>
                 
             </div>
-            <div className='flex flex-col'>
-                <p className='text-lg' >Fashion Assistance</p>
+            <div className='text-section'>
+                <p className='text-title' >Fashion Assistance</p>
                 <p>
                 CREATIVE ART DIRECTION / DIRTY SON AGENCY
                 </p>
@@ -175,24 +175,24 @@ function FashionStyling () {
                     className='alt-image popeye-img-6' />
                 </div>
         </div>
-        <div className='grid grid-cols-3 gap-20'>
-            <div className='flex flex-col'>
+        <div className='work-container'>
+            <div className='flex flex-col cols-span-1'>
                 <p className='text-right pl-8'>
                     V.
                 </p>
-                <p className='text-right'>
+                <p className='text-right text-title'>
                     Fashion Styling
                 </p>
             </div>
-            <div className=''>
+            <div className='main-img-container'>
                 <img 
                 src={calebImg} 
                 alt='Main Caleb Styling'
-                className='main-caleb-img'/>
+                className='main-caleb-img main-img'/>
                 
             </div>
-            <div className='flex flex-col'>
-                <p className='text-lg' >Fashion Assistance</p>
+            <div className='text-section'>
+                <p className='text-title' >Fashion Assistance</p>
                 <p>
                 CREATIVE ART DIRECTION / DIRTY SON AGENCY
                 </p>
@@ -204,26 +204,24 @@ function FashionStyling () {
                 </p>
             </div>
         </div>
-        <div className=''>
-                <div className='alt-images flex flex-row overflow-x-auto'>
-                    <img 
-                    src={calebImg1} 
-                    alt="Caleb Styling"
-                    className='alt-image caleb-img-1' />
-                    <img 
-                    src={calebImg2}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-2' />
-                    <img 
-                    src={calebImg3}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-3' />
-                    <img 
-                    src={calebImg4}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-4' />
-                </div>
-        </div>
+            <div className='flex flex-row overflow-x-auto alt-images sm:overflow-images flex flex-row overflow-x-auto'>
+                <img 
+                src={calebImg1} 
+                alt="Caleb Styling"
+                className='alt-image caleb-img-1' />
+                <img 
+                src={calebImg2}
+                alt='Caleb Styling'
+                className='alt-image caleb-img-2' />
+                <img 
+                src={calebImg3}
+                alt='Caleb Styling'
+                className='alt-image caleb-img-3' />
+                <img 
+                src={calebImg4}
+                alt='Caleb Styling'
+                className='alt-image caleb-img-4' />
+            </div>
         </>
     )
 }
