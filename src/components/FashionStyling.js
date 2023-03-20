@@ -213,7 +213,7 @@ function FashionStyling () {
                     </p>
                 </div>
             </div>
-                <div className='flex flex-row caleb-images sm:alt-images '>
+                <div className='flex flex-row overflow-images-2 sm:alt-images '>
                     <img 
                     src={calebImg1} 
                     alt="Caleb Styling"

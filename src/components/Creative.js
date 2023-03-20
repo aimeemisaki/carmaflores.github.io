@@ -10,35 +10,37 @@ import blotterImg from '../assets/blotterImg.jpeg'
 function Creative () {
     return (
     <>
-    <div className='grid grid-cols-3 gap-20'>
-            <div className='flex flex-col'>
-                <p className='text-right pl-8'>
-                    I.
-                </p>
-                <p className='text-right'>
-                    Creative Direction
-                </p>
-            </div>
-            <div className=''>
-                <img src={blondedImg} 
-                alt='Main Blonded'
-                className='blonded-main-img'/>
-                
-            </div>
-            <div className='flex flex-col'>
-                <p>
-                CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                </p>
-                <p>
-                YEAR:
-                </p>
-                <p>
-                CREDITS:
-                </p>
+    <div className='work-containers'>
+        <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        I.
+                    </p>
+                    <p className='text-right text-title'>
+                        Creative Direction
+                    </p>
+                </div>
+                <div className='main-img-container'>
+                    <img src={blondedImg} 
+                    alt='Main Blonded'
+                    className='blonded-main-img main-img'/>
+                    
+                </div>
+                <div className='text-section'>
+                    <p>
+                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
+                    </p>
+                    <p>
+                    YEAR:
+                    </p>
+                    <p>
+                    CREDITS:
+                    </p>
+                </div>
             </div>
         </div>
         <div className=''>
-                <div className='alt-images flex flex-row overflow-x-auto'>
+                <div className='flex flex-row overflow-images-2 sm:alt-images'>
                     <img 
                     src={blondedImg1} 
                     alt="Blonded Styling" 
@@ -57,31 +59,33 @@ function Creative () {
                     className='alt-image blonded-img-4' />
                 </div>
         </div>
-        <div className='grid grid-cols-3 gap-20 py-8'>
-            <div className='flex flex-col'>
-                <p className='text-right pl-8'>
-                    II.
-                </p>
-                <p className='text-right'>
-                    Creative Direction
-                </p>
-            </div>
-            <div className=''>
-                <img src={blotterImg} 
-                alt='Main Blotter'
-                className='blotter-main-img'/>
-                
-            </div>
-            <div className='flex flex-col'>
-                <p>
-                CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                </p>
-                <p>
-                YEAR:
-                </p>
-                <p>
-                CREDITS:
-                </p>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        II.
+                    </p>
+                    <p className='text-right text-title'>
+                        Creative Direction
+                    </p>
+                </div>
+                <div className='main-img-container'>
+                    <img src={blotterImg} 
+                    alt='Main Blotter'
+                    className='blotter-main-img main-img'/>
+                    
+                </div>
+                <div className='text-section'>
+                    <p>
+                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
+                    </p>
+                    <p>
+                    YEAR:
+                    </p>
+                    <p>
+                    CREDITS:
+                    </p>
+                </div>
             </div>
         </div>
     </>
