@@ -1,11 +1,8 @@
 import { useState } from 'react';
-import { NavDropdown } from 'react-bootstrap'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import carmaNavLogo from '../assets/carmaNavLogo.png'
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-// import {
-// 	faX,
-// } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars, faX} from '@fortawesome/free-solid-svg-icons'
 
 function NavBar () {
     const [toggle, setToggle] = useState(false)
@@ -36,36 +33,29 @@ function NavBar () {
                 </NavLink>
             </li>
         </div>
-        <div className='space-x-4 sm:hidden' onClick={toggleNav}>
-            <p>menu</p>
-            {/* <FontAwesomeIcon className='text-white text-3xl' icon={faBars} /> */}
+        <div className='space-x-12 sm:hidden' onClick={toggleNav}>
+            <FontAwesomeIcon icon={faBars}className='text-slate-900 text-3xl pr-4' />
         </div>
         {toggle && (
             <div className='menu text-white sm:hidden'>
-                <p
-                    className='absolute top-4 right-4'
-                    onClick={toggleNav}>
-                    x
-                </p>
-                <ul className='text-2xl space-y-4'>
-                            <li onClick={toggleNav}>
-                                <NavLink to='/fashion-styling' className='hover-nav-small'>
-                                    fashion / styling
-                                </NavLink>
-                            </li>
-                            <li onClick={toggleNav}>
-                                <NavLink to='/creative' className='hover-nav-small'>
-                                    creative
-                                </NavLink>
-                            </li>
-                            <li onClick={toggleNav}>
-                                <NavLink to='/about-contact' className='hover-nav-small'>
-                                    about / contact
-                                </NavLink>
-                            </li>
-                    <li onCllick={toggleNav}>
-                        <NavLink to='/about' className='hover-nav-small'>
-                            ABOUT
+                <FontAwesomeIcon 
+                icon={faX}
+                className='text-white text-xl absolute right-4 top-4'
+                onClick={toggleNav}/>
+                <ul className='text-2xl space-y-4 '>
+                    <li onClick={toggleNav}>
+                        <NavLink to='/fashion-styling' className='hover-nav-small'>
+                            fashion / styling
+                        </NavLink>
+                    </li>
+                    <li onClick={toggleNav}>
+                        <NavLink to='/creative' className='hover-nav-small'>
+                            creative
+                        </NavLink>
+                    </li>
+                    <li onClick={toggleNav}>
+                        <NavLink to='/about-contact' className='hover-nav-small'>
+                            about / contact
                         </NavLink>
                     </li>
                 </ul>
