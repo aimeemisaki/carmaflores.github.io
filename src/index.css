@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --main:black;
+  --light:lightgrey;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+	/* Layouts */
+	
+	.grid-centered {
+		@apply 
+			grid 
+			place-items-center
+			row-span-5
+		;
+	}
+
+  .centered {
+    @apply
+    grid place-items-center h-screen
+  }
+
+	.flex-centered {
+		@apply
+			flex
+			justify-center
+			items-center
+		;
+	}
+
+	.horizontal {
+		@apply
+			flex
+			flex-row;
+	}
+
+	.vertical {
+		@apply
+			flex
+			flex-col;
+	}
+
+  
+	/* NavBar */
+  .nav-bar-container {
+    @apply
+      vertical
+      justify-evenly
+      w-2/5
+      ;
+  }
+
+  .nav-logo {
+    @apply
+      w-2/5;
+  }
+  .navbar {
+    background-color:white;
+    color: var(--main);
+    @apply
+      text-xl
+      font-semibold
+  }
+  
+  .nav-links {
+    @apply
+      sm:grid;
+      
+  }
+
+  .nav-link {
+    @apply
+      sm:row-span-1;
+  }
+
+  .nav-name:hover {
+    color: grey;
+  }
+  
+  .menu {
+    background-color: black;
+    @apply
+      h-screen
+      w-screen
+      z-10
+      fixed
+      top-0
+      left-0
+      vertical
+      justify-evenly
+      text-center
+    ;
+  }
+  
+  .hover-nav-small {
+    @apply 
+      hover:text-gray-700
+      hover:font-normal;
+  }
+
+    /* hover:text-slate-800 
+      hover:font-normal 
+      hover:bg-white/40 
+      rounded-2xl p-3;  */
+
+  /* FashionStyling */
+
+  .work-containers {
+    @apply
+    py-12;
+  }
+
+  .work-container {
+    @apply
+    grid 
+    grid-cols-4 
+    sm:grid-cols-3 
+    gap-8 
+    px-6 
+    sm:px-0;
+  }
+
+  .text-title {
+    @apply
+    text-sm 
+    sm:text-lg;
+
+  }
+
+  .text-section {
+    @apply
+    flex
+    flex-col
+    text-xs  
+    pr-6 
+    sm:pr-0
+    sm:text-base ;
+  }
+
+  .main-imgs {
+    @apply
+    grid 
+    grid-cols-4 
+    sm:grid-cols-3 
+    gap-8 
+    px-6 
+    sm:px-0;
+  }
+
+.alt-images {
+  align-items: center;
+  justify-content: center;
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  px-6
+  overflow-x-auto
+  ;
+}
+
+.overflow-images {
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  pl-4
+  pr-4
+  ;
+}
+
+
+.alt-image {
+  @apply
+  w-2/5
+  sm:w-1/5
+  ;
+}
+
+.main-img-container {
+  @apply
+  col-span-2 
+  sm:col-span-1;
+}
+
+.main-img {
+  @apply
+  w-[500px]
+  sm:w-11/12;
+}
+
+.single-img {
+  @apply
+  py-8
+;
+}
+
+.overflow-images-2 {
+  @apply
+  pt-8
+  pb-12
+  w-[100vw]
+  space-x-2
+  pl-4
+  pr-4
+  overflow-x-auto
+  sm:pt-8
+  sm:pb-12
+  sm:w-[100vw]
+  sm:space-x-2
+  sm:pl-4
+  sm:pr-4
+  sm:flex
+  sm:justify-center;
+  ;
+}
+
+
+.main-bol-img {
+  border-width: 1px;
+  border-color: #0039BB;
+}
+
+.bol-img-2 {
+  border-width: 1px;
+  border-color: red;
+
+}
+
+.bol-img-3 {
+  border-width: 2px;
+  border-color: yellow;
+}
+
+.eartheater-img {
+  border-width: 1px;
+  border-color: green;
+}
+
+.puffer-img {
+  border-width: 1px;
+  border-color: #FF7EFB;
+}
+
+.popeye-main-img {
+  border-width: 1px;
+  border-color: green;
+}
+
+.popeye-img-1 {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.popeye-img-2 {
+  border-width: 1px;
+  border-color: #025107;
+}
+
+.popeye-img-3 {
+  border-width: 1px;
+  border-color: #FF7712;
+}
+
+.popeye-img-4 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.popeye-img-5 {
+  border-width: 1px;
+  border-color: lightgreen;
+}
+
+.popeye-img-6 {
+  border-width: 1px;
+  border-color: darkred;
+}
+
+.main-caleb-img {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.caleb-img-1 {
+  border-width: 1px;
+  border-color: #FF2EB6;
+}
+
+.caleb-img-2 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.caleb-img-3 {
+  border-width: 1px;
+  border-color: cyan;
+}
+
+.caleb-img-4 {
+  border-width: 1px;
+  border-color: green;
+}
+
+/* Creative
+
+#43FF02*/
+
+.blonded-main-img {
+  border-width: 1px;
+  border-color:#FF2EB6;
+}
+
+.blonded-img-1 {
+  border-width: 1px;
+  border-color: #FFF002;
+}
+
+.blonded-img-2 {
+  border-width: 1px;
+  border-color: red;
+}
+
+.blonded-img-3 {
+  border-width: 1px;
+  border-color: blue;
+}
+
+.blonded-img-4 {
+  border-width: 1px;
+  border-color: green;
+}
+
+.blotter-main-img {
+  border-width:1px;
+  border-color: green;
+}
+
