@@ -22,7 +22,6 @@ body {
 			grid 
 			place-items-center
 			row-span-5
-		;
 	}
 
   .centered {
@@ -249,9 +248,14 @@ body {
   border-color: green;
 }
 
-.puffer-img {
+.isabellalovestory-img {
   border-width: 1px;
   border-color: #FF7EFB;
+}
+
+.isabellalovestory-img-2 {
+  @apply
+  w-[500px]
 }
 
 .popeye-main-img {
@@ -289,6 +293,11 @@ body {
   border-color: darkred;
 }
 
+.richardson-img-3 {
+  @apply
+  w-[340px]
+}
+
 .main-caleb-img {
   border-width: 1px;
   border-color: #FF2EB6;
@@ -312,6 +321,11 @@ body {
 .caleb-img-4 {
   border-width: 1px;
   border-color: green;
+}
+
+.eartheaterJJ-img-2 {
+  @apply
+  w-[400px]
 }
 
 /* Creative

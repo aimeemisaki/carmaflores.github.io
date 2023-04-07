@@ -15,7 +15,18 @@ import calebImg2 from '../assets/calebImg2.png';
 import calebImg3 from '../assets/calebImg3.png';
 import calebImg4 from '../assets/calebImg4.png';
 import eartheaterImg from '../assets/eartheaterImg.png';
-import pufferImg from '../assets/pufferImg.png';
+import isabellalovestoryImg1 from '../assets/isabellalovestoryImg1.JPG';
+import isabellalovestoryImg2 from '../assets/isabellalovestoryImg2.png';
+import richardsonImg1 from '../assets/richardsonImg1.jpg';
+import richardsonImg2 from '../assets/richardsonImg2.webp';
+import richardsonImg3 from '../assets/richardsonImg3.webp';
+import isabellalovestoryJJImg1 from '../assets/isabellalovestoryJJImg1.png';
+import isabellalovestoryJJImg2 from '../assets/isabellalovestoryJJImg2.jpg';
+import isabellalovestoryJJImg3 from '../assets/isabellalovestoryJJImg3.jpg';
+import eartheaterJJImg1 from '../assets/eartheaterJJImg1.jpg';
+import eartheaterJJImg2 from '../assets/eartheaterJJImg2.jpg';
+
+
 
 
 function FashionStyling () {
@@ -30,110 +41,6 @@ function FashionStyling () {
                     <p className='text-right text-title'>
                         Fashion Styling
                     </p>
-                    </div>
-                <div className='main-img-container'>
-                    <img src={bolBasketballImg1} 
-                    alt='Main Bol Basketball Styling'
-                    className='main-bol-img main-img'/>
-                    
-                </div>
-                
-                <div className='text-section'>
-                    <p className='text-title'>Fashion Assistance</p>
-                    <p>
-                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                    </p>
-                    <p>
-                    YEAR:
-                    </p>
-                    <p>
-                    CREDITS:
-                    </p>
-                    </div>
-            </div>
-            <div className=''>
-                    <div className='alt-images flex flex-row'>
-                        <img 
-                        src={bolBasketballImg3} 
-                        alt="Second Bol Basketball Styling"
-                        className='alt-image bol-img-2' />
-                        <img 
-                        src={bolBasketballImg2}
-                        alt='Third Bol Basketball Styling'
-                        className='alt-image bol-img-3' />
-                    </div>
-            </div>
-        </div>
-        <div className='work-containers'>
-            <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
-                        II.
-                    </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                </div>
-                <div className='col-span-2 sm:col-span-1'>
-                    <img src={eartheaterImg} 
-                    alt='Eartheater Styling'
-                    className='eartheater-img main-img'/>
-                    
-                </div>
-                <div className='text-section'>
-                    <p className='text-sm sm:text-lg'>Fashion Assistance</p>
-                    <p>
-                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                    </p>
-                    <p>
-                    YEAR: 2022
-                    </p>
-                    <p>
-                    CREDITS:
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div className='work-containers'>
-            <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
-                        III.
-                    </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                </div>
-                <div className='main-img-container'>
-                    <img 
-                    src={pufferImg} 
-                    alt='Puffer Styling'
-                    className='puffer-img main-img'/>
-                    
-                </div>
-                <div className='text-section'>
-                    <p className='text-title' >Fashion Assistance</p>
-                    <p>
-                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                    </p>
-                    <p>
-                    YEAR: 2022
-                    </p>
-                    <p>
-                    CREDITS:
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div className='work-containers'>
-            <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
-                        IV.
-                    </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
                 </div>
                 <div className='main-img-container'>
                     <img src={popeyeRichImg} 
@@ -142,15 +49,9 @@ function FashionStyling () {
                     
                 </div>
                 <div className='text-section'>
-                    <p className='text-title' >Fashion Assistance</p>
-                    <p>
-                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
-                    </p>
+                    <p className='text-title' >POPEYE JP Issue 906 October 2022</p>
                     <p>
                     YEAR: 2022
-                    </p>
-                    <p>
-                    CREDITS:
                     </p>
                 </div>
             </div>
@@ -187,6 +88,122 @@ function FashionStyling () {
             <div className='work-container'>
                 <div className='flex flex-col cols-span-1'>
                     <p className='text-right pl-8'>
+                        II.
+                    </p>
+                    <p className='text-right text-title'>
+                        Fashion Styling
+                    </p>
+                    </div>
+                <div className='main-img-container'>
+                    <img src={richardsonImg1} 
+                    alt='Main Richardson Styling'
+                    className='main-richardson-img main-img'/>
+                    
+                </div>
+                
+                <div className='text-section'>
+                    <p className='text-title'>Richardson AW 2022</p>
+                    <p>
+                    YEAR: 2022
+                    </p>
+                    <p>
+                    CREDITS: Photos by Valine Braga
+                    </p>
+                    </div>
+            </div>
+            <div className=''>
+                    <div className='alt-images flex flex-row'>
+                        <img 
+                        src={richardsonImg2} 
+                        alt="Second Bol Basketball Styling"
+                        className='alt-image richardson-img-2' />
+                        <img 
+                        src={richardsonImg3}
+                        alt='Third Bol Basketball Styling'
+                        className='alt-image richardson-img-3' />
+                    </div>
+            </div>
+        </div>
+        <div className='work-containers'>
+                <div className='work-container'>
+                    <div className='flex flex-col cols-span-1'>
+                        <p className='text-right pl-8'>
+                            III.
+                        </p>
+                        <p className='text-right text-title'>
+                            Fashion Styling
+                        </p>
+                    </div>
+                    <div className='main-img-container'>
+                        <img 
+                        src={isabellalovestoryImg1} 
+                        alt='Isabella Lovestory Styling'
+                        className='isabellalovestory-img main-img'/>
+                        
+                    </div>
+                    <div className='text-section'>
+                        <p className='text-title'>Isabella Lovestory</p>
+                        <p>
+                        YEAR: 2022
+                        </p>
+                        <p>
+                        CREDITS: <a href='https://www.instagram.com/killauren/?hl=en'>Lauren Davis</a>
+                        </p>
+                    </div>
+            </div>
+            <div className=''>
+                    <div className='alt-images flex flex-row'>
+                        <img 
+                        src={isabellalovestoryImg2} 
+                        alt='Second Isabella Lovestory Styling'
+                        className='alt-image isabellalovestory-img-2' />
+                    </div>
+            </div>
+        </div>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        IV.
+                    </p>
+                    <p className='text-right text-title'>
+                        Fashion Styling
+                    </p>
+                    </div>
+                <div className='main-img-container'>
+                    <img src={isabellalovestoryJJImg1} 
+                    alt='Main Bol Basketball Styling'
+                    className='main-isabellalovestoryJJ-img main-img'/>
+                    
+                </div>
+                
+                <div className='text-section'>
+                    <p className='text-title'>Isabella Lovestory x Jiu Jie Decor</p>
+                    <p>
+                    YEAR: 2022
+                    </p>
+                    <p>
+                    CREDITS: Photos by <a href='danny-lim.com'>Danny Lim</a>
+                    </p>
+                    </div>
+            </div>
+            <div className=''>
+                    <div className='alt-images flex flex-row'>
+                        <img 
+                        src={isabellalovestoryJJImg2} 
+                        alt="Second Isabella Lovestory x Jiu Jie Decor Styling"
+                        className='alt-image isaballalovestoryJJ-img-2' />
+                        <img 
+                        src={isabellalovestoryJJImg3}
+                        alt='Third Isabella Lovestory x Jiu Jie Decor Styling'
+                        className='alt-image isabellalovestoryJJ-img-3' />
+                    </div>
+            </div>
+        </div>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
                         V.
                     </p>
                     <p className='text-right text-title'>
@@ -201,15 +218,12 @@ function FashionStyling () {
                     
                 </div>
                 <div className='text-section'>
-                    <p className='text-title' >Fashion Assistance</p>
+                    <p className='text-title' >Caleb Giles Perforamnce for Public Records</p>
                     <p>
-                    CREATIVE ART DIRECTION / DIRTY SON AGENCY
+                    YEAR: 2022
                     </p>
                     <p>
-                    YEAR:
-                    </p>
-                    <p>
-                    CREDITS:
+                    CREDITS: Photos by <a href='https://www.christophercurrence.com/'>Chris Currence</a>
                     </p>
                 </div>
             </div>
@@ -231,7 +245,103 @@ function FashionStyling () {
                     alt='Caleb Styling'
                     className='alt-image caleb-img-4' />
                 </div>
+        </div>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        VI.
+                    </p>
+                    <p className='text-right text-title'>
+                        Fashion Styling
+                    </p>
+                </div>
+                <div className='col-span-2 sm:col-span-1'>
+                    <img src={eartheaterImg} 
+                    alt='Eartheater Styling'
+                    className='eartheater-img main-img'/>
+                    
+                </div>
+                <div className='text-section'>
+                    <a href='https://www.youtube.com/watch?v=uzSXu04E72s'>
+                        <p className='text-title'>Eartheater for Moma PS1 Warm-Up 2021</p>
+                    </a>
+                    <p>
+                    YEAR: 2021
+                    </p>
+                </div>
             </div>
+        </div>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        VII.
+                    </p>
+                    <p className='text-right text-title'>
+                        Fashion Styling
+                    </p>
+                    </div>
+                <div className='main-img-container'>
+                    <img src={eartheaterJJImg1} 
+                    alt='Main Eartheater JJ Styling'
+                    className='main-eartheaterJJ-img main-img'/>
+                    
+                </div>
+                
+                <div className='text-section'>
+                    <p className='text-title'>Eartheater for <a href='https://jiujiedecor.com/'>Jiu Jie</a></p>
+                    <p>
+                    YEAR: 2021
+                    </p>
+                    </div>
+            </div>
+            <div className=''>
+                    <div className='alt-images flex flex-row'>
+                        <img 
+                        src={eartheaterJJImg2} 
+                        alt="Second Eartheater JJ Styling"
+                        className='alt-image eartheaterJJ-img-2' />
+                    </div>
+            </div>
+        </div>
+        <div className='work-containers'>
+            <div className='work-container'>
+                <div className='flex flex-col cols-span-1'>
+                    <p className='text-right pl-8'>
+                        VIII.
+                    </p>
+                    <p className='text-right text-title'>
+                        Fashion Styling
+                    </p>
+                    </div>
+                <div className='main-img-container'>
+                    <img src={bolBasketballImg1} 
+                    alt='Main Bol Basketball Styling'
+                    className='main-bol-img main-img'/>
+                    
+                </div>
+                
+                <div className='text-section'>
+                    <p className='text-title'>BOL BOL Draft Night</p>
+                    <p>
+                    YEAR: 2019
+                    </p>
+                    </div>
+            </div>
+            <div className=''>
+                    <div className='alt-images flex flex-row'>
+                        <img 
+                        src={bolBasketballImg3} 
+                        alt="Second Bol Basketball Styling"
+                        className='alt-image bol-img-2' />
+                        <img 
+                        src={bolBasketballImg2}
+                        alt='Third Bol Basketball Styling'
+                        className='alt-image bol-img-3' />
+                    </div>
+            </div>
+        </div>
         </>
     )
 }
