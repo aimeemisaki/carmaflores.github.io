@@ -25,6 +25,8 @@ import isabellalovestoryJJImg2 from '../assets/isabellalovestoryJJImg2.jpg';
 import isabellalovestoryJJImg3 from '../assets/isabellalovestoryJJImg3.jpg';
 import eartheaterJJImg1 from '../assets/eartheaterJJImg1.jpg';
 import eartheaterJJImg2 from '../assets/eartheaterJJImg2.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -34,18 +36,15 @@ function FashionStyling () {
         <>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         I.
-                    </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
                     </p>
                 </div>
                 <div className='main-img-container'>
                     <img src={popeyeRichImg} 
                     alt='Main Popeye Rich Styling'
-                    className='popeye-main-img main-img'/>
+                    className='main-popeye-img main-img'/>
                     
                 </div>
                 <div className='text-section'>
@@ -86,21 +85,16 @@ function FashionStyling () {
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         II.
                     </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                    </div>
+                </div>
                 <div className='main-img-container'>
                     <img src={richardsonImg1} 
                     alt='Main Richardson Styling'
                     className='main-richardson-img main-img'/>
-                    
                 </div>
-                
                 <div className='text-section'>
                     <p className='text-title'>Richardson AW 2022</p>
                     <p>
@@ -109,7 +103,7 @@ function FashionStyling () {
                     <p>
                     CREDITS: Photos by Valine Braga
                     </p>
-                    </div>
+                </div>
             </div>
             <div className=''>
                     <div className='alt-images flex flex-row'>
@@ -125,67 +119,61 @@ function FashionStyling () {
             </div>
         </div>
         <div className='work-containers'>
-                <div className='work-container'>
-                    <div className='flex flex-col cols-span-1'>
-                        <p className='text-right pl-8'>
-                            III.
-                        </p>
-                        <p className='text-right text-title'>
-                            Fashion Styling
-                        </p>
-                    </div>
-                    <div className='main-img-container'>
-                        <img 
-                        src={isabellalovestoryImg1} 
-                        alt='Isabella Lovestory Styling'
-                        className='isabellalovestory-img main-img'/>
-                        
-                    </div>
-                    <div className='text-section'>
-                        <p className='text-title'>Isabella Lovestory</p>
-                        <p>
-                        YEAR: 2022
-                        </p>
-                        <p>
-                        CREDITS: <a href='https://www.instagram.com/killauren/?hl=en'>Lauren Davis</a>
-                        </p>
-                    </div>
+            <div className='work-container'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
+                        III.
+                    </p>
+                </div>
+                <div className='main-img-container'>
+                    <img 
+                    src={isabellalovestoryImg1} 
+                    alt='Isabella Lovestory Styling'
+                    className='isabellalovestory-img main-img'/>
+                    
+                </div>
+                <div className='text-section'>
+                    <p className='text-title'>Isabella Lovestory</p>
+                    <p>
+                    YEAR: 2022
+                    </p>
+                    <p>
+                        CREDITS: <a href='https://www.instagram.com/killauren/?hl=en'> Lauren Davis <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                    </p>
+                </div>
             </div>
             <div className=''>
-                    <div className='alt-images flex flex-row'>
-                        <img 
-                        src={isabellalovestoryImg2} 
-                        alt='Second Isabella Lovestory Styling'
-                        className='alt-image isabellalovestory-img-2' />
-                    </div>
+                <div className='alt-images flex flex-row'>
+                    <img 
+                    src={isabellalovestoryImg2} 
+                    alt='Second Isabella Lovestory Styling'
+                    className='alt-image single-img isabellalovestory-img-2' />
+                </div>
             </div>
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         IV.
                     </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                    </div>
+                </div>
                 <div className='main-img-container'>
                     <img src={isabellalovestoryJJImg1} 
                     alt='Main Bol Basketball Styling'
                     className='main-isabellalovestoryJJ-img main-img'/>
                     
                 </div>
-                
                 <div className='text-section'>
                     <p className='text-title'>Isabella Lovestory x Jiu Jie Decor</p>
                     <p>
                     YEAR: 2022
                     </p>
                     <p>
-                    CREDITS: Photos by <a href='danny-lim.com'>Danny Lim</a>
+                        CREDITS: Photos by <a href='danny-lim.com'>
+                        Danny Lim  <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                     </p>
-                    </div>
+                </div>
             </div>
             <div className=''>
                     <div className='alt-images flex flex-row'>
@@ -202,12 +190,9 @@ function FashionStyling () {
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         V.
-                    </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
                     </p>
                 </div>
                 <div className='main-img-container'>
@@ -218,45 +203,42 @@ function FashionStyling () {
                     
                 </div>
                 <div className='text-section'>
-                    <p className='text-title' >Caleb Giles Perforamnce for Public Records</p>
+                    <p className='text-title' >Caleb Giles Perforamnce Public Records</p>
                     <p>
                     YEAR: 2022
                     </p>
                     <p>
-                    CREDITS: Photos by <a href='https://www.christophercurrence.com/'>Chris Currence</a>
+                        CREDITS: Photos by <a href='https://www.christophercurrence.com/'>Chris Currence <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                     </p>
                 </div>
             </div>
-                <div className='flex flex-row overflow-images-2 sm:alt-images '>
-                    <img 
-                    src={calebImg1} 
-                    alt="Caleb Styling"
-                    className='alt-image caleb-img-1' />
-                    <img 
-                    src={calebImg2}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-2' />
-                    <img 
-                    src={calebImg3}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-3' />
-                    <img 
-                    src={calebImg4}
-                    alt='Caleb Styling'
-                    className='alt-image caleb-img-4' />
-                </div>
+            <div className='flex flex-row overflow-images'>
+                <img 
+                src={calebImg1} 
+                alt="Caleb Styling"
+                className='caleb-image caleb-img-1' />
+                <img 
+                src={calebImg2}
+                alt='Caleb Styling'
+                className='caleb-image caleb-img-2' />
+                <img 
+                src={calebImg3}
+                alt='Caleb Styling'
+                className='caleb-image caleb-img-3' />
+                <img 
+                src={calebImg4}
+                alt='Caleb Styling'
+                className='caleb-image caleb-img-4' />
+            </div>
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         VI.
                     </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
                 </div>
-                <div className='col-span-2 sm:col-span-1'>
+                <div className='main-img-container'>
                     <img src={eartheaterImg} 
                     alt='Eartheater Styling'
                     className='eartheater-img main-img'/>
@@ -264,7 +246,7 @@ function FashionStyling () {
                 </div>
                 <div className='text-section'>
                     <a href='https://www.youtube.com/watch?v=uzSXu04E72s'>
-                        <p className='text-title'>Eartheater for Moma PS1 Warm-Up 2021</p>
+                        <p className='text-title'>Eartheater for Moma PS1 Warm-Up 2021 <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></p>
                     </a>
                     <p>
                     YEAR: 2021
@@ -274,60 +256,53 @@ function FashionStyling () {
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         VII.
                     </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                    </div>
+                </div>
                 <div className='main-img-container'>
                     <img src={eartheaterJJImg1} 
                     alt='Main Eartheater JJ Styling'
                     className='main-eartheaterJJ-img main-img'/>
                     
                 </div>
-                
                 <div className='text-section'>
-                    <p className='text-title'>Eartheater for <a href='https://jiujiedecor.com/'>Jiu Jie</a></p>
+                    <p className='text-title'>
+                        Eartheater for <a href='https://jiujiedecor.com/'>Jiu Jie <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></p>
                     <p>
                     YEAR: 2021
                     </p>
-                    </div>
+                </div>
             </div>
             <div className=''>
-                    <div className='alt-images flex flex-row'>
-                        <img 
-                        src={eartheaterJJImg2} 
-                        alt="Second Eartheater JJ Styling"
-                        className='alt-image eartheaterJJ-img-2' />
-                    </div>
+                <div className='alt-images flex flex-row'>
+                    <img 
+                    src={eartheaterJJImg2} 
+                    alt="Second Eartheater JJ Styling"
+                    className='alt-image single-img eartheaterJJ-img-2' />
+                </div>
             </div>
         </div>
         <div className='work-containers'>
             <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
-                    <p className='text-right pl-8'>
+                <div className='number'>
+                    <p className='text-left sm:text-right'>
                         VIII.
                     </p>
-                    <p className='text-right text-title'>
-                        Fashion Styling
-                    </p>
-                    </div>
+                </div>
                 <div className='main-img-container'>
                     <img src={bolBasketballImg1} 
                     alt='Main Bol Basketball Styling'
                     className='main-bol-img main-img'/>
                     
                 </div>
-                
                 <div className='text-section'>
                     <p className='text-title'>BOL BOL Draft Night</p>
                     <p>
                     YEAR: 2019
                     </p>
-                    </div>
+                </div>
             </div>
             <div className=''>
                     <div className='alt-images flex flex-row'>
