@@ -20,16 +20,6 @@ a:hover {
   color: var(--gray);
 }
 
-::-webkit-scrollbar-thumb {
-  width: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: black;
-  @apply
-  rounded-2xl
-}
-
 	/* Layouts */
 	
 	.grid-centered {
@@ -49,7 +39,6 @@ a:hover {
 			flex
 			justify-center
 			items-center
-		;
 	}
 
 	.horizontal {
@@ -120,6 +109,14 @@ a:hover {
     @apply 
       hover:text-gray-700
       hover:font-normal
+  }
+
+  /* FashionStyling */
+  video {
+    @apply
+    mb-[20vh]
+    sm:mb-[50vh]
+    sm:mt-0
   }
 
   /* FashionStyling */
@@ -218,6 +215,14 @@ a:hover {
   w-4/5
   sm:w-[400px]
 ;
+}
+
+.fashion-assist-container {
+  @apply
+  grid
+  place-content-center
+  pb-12
+  animate-bounce
 }
 
 /* Popeye JP Issue Images */
@@ -399,10 +404,6 @@ a:hover {
 }
 
 /* About/Contact Page */
-
-.about-contact-frame {
-
-}
 
 .about-contact-container {
   background-color: var(--light);
