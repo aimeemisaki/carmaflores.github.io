@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import './index.css';
 import LaunchPage from './components/LaunchPage';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import FashionStyling from './components/FashionStyling';
 import Creative from './components/Creative';
 import AboutContact from './components/AboutContact';
@@ -12,7 +13,8 @@ function App() {
 }
   return (
     <>
-      <NavBar/>
+      <NavBar />
+      <Footer />
       <main 
       onMouseOver={videoStart}>
         <Routes>

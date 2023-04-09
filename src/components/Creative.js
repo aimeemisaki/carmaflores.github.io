@@ -14,11 +14,11 @@ function Creative () {
     <>
     <div className='work-containers'>
         <div className='work-container'>
-                <div className='flex flex-col cols-span-1'>
+                <div className='number'>
                     <p className='text-left sm:text-right'>
                         I.
                     </p>
-                    <p className='text-right text-title'>
+                    <p className='text-left sm:text-right creative-title'>
                         Creative Art Direction
                     </p>
                 </div>
