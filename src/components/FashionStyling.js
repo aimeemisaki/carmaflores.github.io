@@ -2,7 +2,7 @@ import React from 'react';
 import bolBasketballImg1 from '../assets/bolBasketballImg1.png';
 import bolBasketballImg2 from '../assets/bolBasketballImg2.jpg';
 import bolBasketballImg3 from '../assets/bolBasketballImg3.png';
-import popeyeRichImg from '../assets/popeyeRichImg.webp'
+import popeyeRichImg from '../assets/popeyeRichImg.webp';
 import popeyeRichImg1 from '../assets/popeyeRichImg1.webp';
 import popeyeRichImg2 from '../assets/popeyeRichImg2.webp';
 import popeyeRichImg3 from '../assets/popeyeRichImg3.webp';
@@ -316,6 +316,10 @@ function FashionStyling () {
                         className='alt-image bol-img-3' />
                     </div>
             </div>
+        </div>
+        <div className='fashion-assist-container'>
+            <a href='https://www.google.com/'>
+                <p className='text-title'>FASHION STYLING ASSISTANCE WORK <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></p></a>
         </div>
         </>
     )
