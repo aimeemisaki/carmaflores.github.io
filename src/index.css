@@ -12,8 +12,14 @@
   --gray: rgb(125, 122, 122);
 }
 
+.App {
+  min-height: 100vh;
+}
+
 body {
   font-family: 'Inconsolata', monospace;
+  min-height: 100vh;
+  position: relative;
 }
 
 a:hover {
@@ -141,7 +147,6 @@ a:hover {
     @apply
     text-base 
     sm:text-lg;
-
   }
 
   .text-section {
@@ -373,6 +378,11 @@ a:hover {
 }
 
 /* Creative Page */
+.creative-title {
+  @apply
+  text-xs
+  sm:text-base
+}
 .blonded-main-img {
   border-width: 2px;
   border-color:#FF2EB6;
@@ -412,9 +422,9 @@ a:hover {
   rounded-2xl
   text-center
   w-2/3
-  max-h-[90vh]
+  max-h-[80vh]
   overflow-y-auto
-  p-8
+  p-4
   border
   border-slate-400
 }
@@ -429,3 +439,19 @@ a:hover {
   text-sm
   sm:text-base
 }
+
+/* Footer */
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;  
+  @apply
+  pt-12
+  pb-4
+}
+
+
