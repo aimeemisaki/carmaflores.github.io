@@ -6,7 +6,7 @@ Copyright © Teki  - <a href="https://aimeemisaki.com/">Aimee Misaki</a>
 
 ## 🪄 Deployed Website Link
 
-Head over to <a href='https://carmaflores.com/'></a> to view more! 👀
+Head over to the <a href='https://carmaflores.com/'>website</a> to view more! 👀
 
 ## 🧰 Tech Stack
 <a href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'><img src='./planning/tech-icons/html5.png' alt='HTML5' width=60/></a>
