@@ -15,7 +15,7 @@ Head over to <a href='https://carmaflores.com/'></a> to view more! 👀
 <a href='https://reactjs.org/'><img src='./planning/tech-icons/react.png' alt='React.js' width=60></a>
 <a href='https://tailwindcss.com/'><img src='./planning/tech-icons/tailwindcss.png' alt='TailwindCSS' width=60/></a>
 <a href='https://react-bootstrap.github.io/'><img src='./planning/tech-icons/reactbootstrap.png' alt='React Bootstrap' width=60/></a>
-<a href='https://docs.netlify.com/?_ga=2.166727612.366649455.1681128641-241509463.1681128641'><img src='./planning/tech-icons/netlify.wwebp' alt='Netlify' width=60/></a>
+<a href='https://docs.netlify.com/?_ga=2.166727612.366649455.1681128641-241509463.1681128641'><img src='./planning/tech-icons/netlify.webp' alt='Netlify' width=60/></a>
 
 
 ## Planning
