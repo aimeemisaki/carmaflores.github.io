@@ -96,9 +96,9 @@ function FashionStyling () {
                     className='main-richardson-img main-img'/>
                 </div>
                 <div className='text-section'>
-                    <p className='text-title'>Richardson AW 2022</p>
+                    <p className='text-title'>Richardson AW 2021</p>
                     <p>
-                    YEAR: 2022
+                    YEAR: 2021
                     </p>
                     <p>
                     CREDITS: Photos by Valine Braga
@@ -135,7 +135,7 @@ function FashionStyling () {
                 <div className='text-section'>
                     <p className='text-title'>Isabella Lovestory</p>
                     <p>
-                    YEAR: 2022
+                    YEAR: 2021
                     </p>
                     <p>
                         CREDITS: <a href='https://www.instagram.com/killauren/?hl=en'> Lauren Davis <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
@@ -167,7 +167,7 @@ function FashionStyling () {
                 <div className='text-section'>
                     <p className='text-title'>Isabella Lovestory x Jiu Jie Decor</p>
                     <p>
-                    YEAR: 2022
+                    YEAR: 2021
                     </p>
                     <p>
                         CREDITS: Photos by <a href='danny-lim.com'>
@@ -249,7 +249,7 @@ function FashionStyling () {
                         <p className='text-title'>Eartheater for Moma PS1 Warm-Up 2021 <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></p>
                     </a>
                     <p>
-                    YEAR: 2021
+                    YEAR: 2020
                     </p>
                 </div>
             </div>
@@ -271,7 +271,7 @@ function FashionStyling () {
                     <p className='text-title'>
                         Eartheater for <a href='https://jiujiedecor.com/'>Jiu Jie <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></p>
                     <p>
-                    YEAR: 2021
+                    YEAR: 2020
                     </p>
                 </div>
             </div>
