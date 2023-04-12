@@ -1,5 +1,4 @@
 import React from 'react';
-import logoVideo from '../assets/logoVideo.mp4'
 
 function LaunchPage () {
     
@@ -12,6 +11,7 @@ function LaunchPage () {
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen
             style={{ width: '100%' }}
+            title='logo-video'
             ></iframe>
         </div>
     )
