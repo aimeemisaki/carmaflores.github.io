@@ -5,7 +5,7 @@ function LaunchPage () {
     
     return (
         <div className='centered'>
-            <video muted loop autoplay playsinline>
+            <video muted loop>
                 <source src={logoVideo} type='video/mp4' id='logo-video'>
                 </source>
             </video>
