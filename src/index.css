@@ -117,12 +117,18 @@ a:hover {
       hover:font-normal
   }
 
-  /* FashionStyling */
+  /* LaunchPage */
   video {
     @apply
     mb-[20vh]
+    w-[600px]
+    sm:w-[70vw]
     sm:mb-[50vh]
     sm:mt-0
+  }
+
+  #logo-video {
+   
   }
 
   /* FashionStyling */
