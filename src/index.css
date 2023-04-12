@@ -118,17 +118,23 @@ a:hover {
   }
 
   /* LaunchPage */
-  video {
+  .logo-video-container {
     @apply
+    w-[600px]
+    sm:w-[80vw]
+  }
+
+  iframe {
+    @apply
+    pr-0
+    pl-0
     mb-[20vh]
-    w-[200px]
-    sm:w-[70vw]
     sm:mb-[50vh]
     sm:mt-0
   }
 
-  #logo-video {
-   
+  #iframe-logo {
+    width:100%;
   }
 
   /* FashionStyling */

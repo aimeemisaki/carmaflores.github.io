@@ -9,7 +9,7 @@ import AboutContact from './components/AboutContact';
 
 function App() {
   function videoStart () {
-    document.querySelector('video').play()
+    document.querySelector('iframe').play()
 }
   return (
     <>
