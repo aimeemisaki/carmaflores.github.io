@@ -121,7 +121,7 @@ a:hover {
   video {
     @apply
     mb-[20vh]
-    w-[600px]
+    w-[200px]
     sm:w-[70vw]
     sm:mb-[50vh]
     sm:mt-0
