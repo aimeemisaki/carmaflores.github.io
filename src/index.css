@@ -191,13 +191,11 @@ a:hover {
   }
   
   .main-img {
-    width: auto;
     @apply
     sm:w-11/12
   }
 
 .alt-images {
-  width: auto;
   align-items: center;
   justify-content: center;
   @apply
@@ -211,7 +209,6 @@ a:hover {
 }
 
 .alt-image {
-  width: auto;
   @apply
   w-2/5
   sm:w-72
@@ -231,7 +228,6 @@ a:hover {
 }
 
 .single-img {
-  width: auto;
   @apply
   w-4/5
   sm:w-[400px]
